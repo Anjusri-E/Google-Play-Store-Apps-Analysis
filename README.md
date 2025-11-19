@@ -91,42 +91,60 @@ Google-Play-Store-Apps-Analysis/
 
 ## 🚀 How to Run the Project
 
-1. Clone the repository:
-```bash
+### **1. Clone the repository:**
+
 git clone https://github.com/Anjusri-E/Google-Play-Store-Apps-Analysis.git
- 
-2.Install required libraries:
-
+2. Install required libraries:
+bash
+Copy code
 pip install -r requirements.txt
+3. Open the notebook:
+bash
+Copy code
+jupyter notebook google_play_analysis.ipynb
+4. Run all cells to reproduce the analysis and plots.
+📁 Project Structure
+bash
+Copy code
+Google-Play-Store-Apps-Analysis/
+│── google_play_analysis.ipynb     # Main Notebook
+│── googleplaystore.csv            # Raw dataset
+│── googleplaystore_user_reviews.csv   # Sentiment dataset
+│── googleplay_cleaned.csv         # Cleaned dataset
+│── requirements.txt               # Required libraries
+│── plots/
+│   ├── rating_distribution.png
+│   ├── category_count.png
+│   ├── price_vs_installs.png
+│   ├── size_vs_installs.png
+│   ├── reviews_vs_installs.png
+│   ├── paid_vs_free_ratings.png
+│   ├── category_competitiveness_heatmap.png
+│   └── sentiment_by_category.png
+└── README.md
 
-3.Open the notebook:
 
-jupyter notebook Google_Play_EDA.ipynb
-
-
-4.Run all cells to reproduce the analysis and plots.
-
-📝 Conclusion
-
+ 
+ ###📝 Conclusion
 This analysis provides valuable insights into how apps perform on the Google Play Store, including the impact of:
 
-category,
+Category
 
-pricing,
+Pricing
 
-app size,
+App size
 
-user sentiment, and
+User sentiment
 
-installs & reviews.
+Review volume
 
-Developers and app businesses can use these results to prioritize features, improve user experience, and target high-growth categories.
+Installs
+
+These insights help app developers optimize performance, improve user experience, and target high-growth categories.
 
 🔗 GitHub Repository
-
 https://github.com/Anjusri-E/Google-Play-Store-Apps-Analysis
 
 👩‍💻 Author
-
 Anjusri
-Data Analyst 
+Data Analyst
