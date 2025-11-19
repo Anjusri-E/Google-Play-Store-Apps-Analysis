@@ -69,21 +69,6 @@ Insights:
 
 ---
 
-
-### **1. Clone the repository:**
-
-git clone https://github.com/Anjusri-E/Google-Play-Store-Apps-Analysis.git
-2. Install required libraries:
-bash
-Copy code
-pip install -r requirements.txt
-3. Open the notebook:
-bash
-Copy code
-jupyter notebook google_play_analysis.ipynb
-4. Run all cells to reproduce the analysis and plots.
-
-
  
  ## 📝 Conclusion
 
