@@ -66,26 +66,6 @@ Insights:
 - **Most positive categories:** Books & Reference, Education  
 - **Most negative categories:** Tools, Communication (due to performance issues and ads)  
 
----
-
-## 📁 Project Structure
-
-Google-Play-Store-Apps-Analysis/
-│
-├── Google_Play_EDA.ipynb # Main notebook
-├── googleplaystore.csv # Raw dataset
-├── googleplaystore_user_reviews.csv # Sentiment data
-├── googleplay_cleaned.csv # Cleaned dataset
-├── plots/ # All charts saved here
-│ ├── rating_distribution.png
-│ ├── category_count.png
-│ ├── paid_vs_free_ratings.png
-│ ├── price_vs_installs.png
-│ ├── sentiment_by_category.png
-│ └── ...more
-├── requirements.txt # Required libraries
-└── README.md
-
 
 ---
 
@@ -125,26 +105,26 @@ Google-Play-Store-Apps-Analysis/
 
 
  
- ###📝 Conclusion
+ ## 📝 Conclusion
+
 This analysis provides valuable insights into how apps perform on the Google Play Store, including the impact of:
 
-Category
+- Category  
+- Pricing  
+- App size  
+- User sentiment  
+- Installs & reviews  
 
-Pricing
+Developers and app businesses can use these results to prioritize features, improve user experience, and target high-growth categories.
 
-App size
+---
 
-User sentiment
+## 🔗 GitHub Repository
 
-Review volume
-
-Installs
-
-These insights help app developers optimize performance, improve user experience, and target high-growth categories.
-
-🔗 GitHub Repository
 https://github.com/Anjusri-E/Google-Play-Store-Apps-Analysis
 
-👩‍💻 Author
-Anjusri
+---
+
+## 👩‍💻 Author  
+**Anjusri**  
 Data Analyst
