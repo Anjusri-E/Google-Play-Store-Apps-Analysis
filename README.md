@@ -82,25 +82,6 @@ bash
 Copy code
 jupyter notebook google_play_analysis.ipynb
 4. Run all cells to reproduce the analysis and plots.
-📁 Project Structure
-bash
-Copy code
-Google-Play-Store-Apps-Analysis/
-│── google_play_analysis.ipynb     # Main Notebook
-│── googleplaystore.csv            # Raw dataset
-│── googleplaystore_user_reviews.csv   # Sentiment dataset
-│── googleplay_cleaned.csv         # Cleaned dataset
-│── requirements.txt               # Required libraries
-│── plots/
-│   ├── rating_distribution.png
-│   ├── category_count.png
-│   ├── price_vs_installs.png
-│   ├── size_vs_installs.png
-│   ├── reviews_vs_installs.png
-│   ├── paid_vs_free_ratings.png
-│   ├── category_competitiveness_heatmap.png
-│   └── sentiment_by_category.png
-└── README.md
 
 
  
